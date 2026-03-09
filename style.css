@@ -1,0 +1,48 @@
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Consigne Exercice 3 : Titre h1 en Rouge */
+h1 {
+    color: #e74c3c; /* Rouge vif */
+    text-align: center;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+}
+
+/* Consigne Exercice 3 : Titre h2 en Vert */
+h2 {
+    color: #27ae60; /* Vert émeraude */
+    margin-top: 30px;
+}
+
+/* Style pour la liste ordonnée (Exercice 3) */
+ol {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border-left: 5px solid #27ae60;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style pour les paragraphes d'informations */
+p {
+    font-style: italic;
+    background: #e8f4fd;
+    padding: 10px;
+    border-radius: 4px;
+}
